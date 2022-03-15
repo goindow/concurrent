@@ -12,7 +12,6 @@ bash shell 多任务并发库
 ## 使用
 ```shell
 #!/bin/bash
-
 task_count=20
 
 function task() { 
@@ -31,3 +30,6 @@ concurrent_wait
 
 date
 ```
+
+## 示例
+![demo](https://github.com/goindow/concurrent/blob/main/example/demo.png)
