@@ -44,7 +44,6 @@ function _post_token() {
   echo >&$pipe_fd
 }
 
-
 # 并发初始化
 function concurrent_init() {
   _limit_concurrency $1
